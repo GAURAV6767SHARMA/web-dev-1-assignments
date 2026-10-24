@@ -1,0 +1,202 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 3px solid blue;
+}
+
+header h1 {
+    color: blue;
+    font-size: 35px;
+}
+
+header p {
+    color: gray;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: blue;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: blue;
+}
+
+/* Main */
+main {
+    width: 85%;
+    margin: auto;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 25px 0;
+    padding: 25px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    color: blue;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: darkblue;
+}
+
+/* Home */
+#home {
+    background-color: aliceblue;
+}
+
+/* About */
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px gray;
+}
+
+/* Projects */
+#projects li {
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid blue;
+    border-radius: 5px;
+}
+
+#projects li:hover {
+    background-color: lightblue;
+}
+
+/* Skills Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+}
+
+caption {
+    padding: 10px;
+    color: blue;
+}
+
+th {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
+tr:hover {
+    background-color: lightblue;
+}
+
+/* Contact Form */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    border-color: blue;
+    outline: none;
+}
+
+/* Button */
+button {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+hr {
+    border: 1px solid lightblue;
+    margin: 25px 0;
+}
+
+
+footer {
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid blue;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+    padding: 8px;
+}
+
+footer a:hover {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
